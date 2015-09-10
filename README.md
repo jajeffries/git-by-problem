@@ -4,3 +4,7 @@ I've been thinking for a while that it would be useful to know what to do when y
 
 ## Table of contents
 * [I screwed up](problems/I screwed up.md)
+
+
+## Contributing
+If you have solved a problem using git and you think it would be useful to other people then send me a pull request with a description of the problem and an explanation of the command you used to solve it. If you want to be creditted include a twitter or github link too.
