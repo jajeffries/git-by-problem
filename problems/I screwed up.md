@@ -12,6 +12,18 @@ Everyone does it, but how can git help us fix it?
 Or to go back to 1 day ago we could use:
 
     git reset --hard master@{"yesterday"}
+    
+## and want to temporarily go back to my last commit
+
+    git stash
+    
+This reverts your working tree back to your last commit, but stores the changes you've made since as a stash. To get your changes back and keep the stash you can use
+
+    git stash apply
+    
+or to get your changes back and remove the last stash you can use
+
+    git stash pop
 
 
 
